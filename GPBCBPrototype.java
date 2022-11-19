@@ -2,8 +2,7 @@ import java.util.*;
 public class GPBCBPrototype {
   public static void main(String[]args){
 // Defining Scanner to read input.
-    Scanner scnr;
-    scnr = new Scanner(System.in);
+    Scanner scnr = new Scanner(System.in);
 
 // Welcome Program
     System.out.println("|*************************************************|");
@@ -20,13 +19,26 @@ public class GPBCBPrototype {
     int behave = scnr.nextInt();
 
     if(behave == 1){
-      System.out.println(""); //Here a separate function is to be defined.
+      System.out.println("Friend");
     }
     else if(behave == 2){
-      System.out.println(""); //A function will be here too.
+      System.out.println("Formal");
     }
     else{
       System.out.println("Wrong input, Please enter correct value......");
+      int behave1 = scnr.nextInt();
+
+    switch (behave1) {
+      case 1 :
+      System.out.println("Friend");
+      break;
+      case 2 :
+      System.out.println("Formal");
+      break;
+      default :
+      System.out.println("The program will terminate now because u did too much studpidity, and the creator of me is lazy to write code.");
+      break;
+    }
     }
   }
 }
