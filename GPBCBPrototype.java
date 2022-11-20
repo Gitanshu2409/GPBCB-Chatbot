@@ -26,6 +26,101 @@ public class GPBCBPrototype {
     else{
         System.out.println("Not an Option, 1 more try.....");
       }
+
+    switch (future){
+      case 1:
+        System.out.println("Good luck on your journey, you still got lot more to do... You will be a Lifesaver one day");
+        WhatDo();
+      break;
+      case 2:
+        System.out.println("You have got a lot more to do, First step : Embrace your mindset.(Think of the Possibilities..)");
+        WhatDo();
+      break;
+      case 3:
+        System.out.println("I hope you succeed with the blessings of Einstien and Newton.");
+        WhatDo();
+      break;
+      case 4:
+        System.out.println("Sure, You have my hopes with you, surely you will entertain not only your country but also the world one day.");
+        WhatDo();
+      break;
+      case 5:
+        System.out.println("Sure, Start studying and stand with the right...");
+        WhatDo();
+      break;
+      case 6:
+        System.out.println("Go ahead and one day sing me song too.");
+        WhatDo();
+      break;
+      case 7:
+        System.out.println("Wait my developer is interested too but he is too lazy to attempt, Good Luck.");
+        WhatDo();
+      break;
+      case 8:
+        System.out.println("Please do favour me i can do a lot of things for you.");
+        WhatDo();
+      break;
+      case 9:
+        System.out.println("Please fly me with you once you become one.");
+        WhatDo();
+      break;
+      case 10:
+        System.out.println("Salute to you, My best hopes are with you.");
+        WhatDo();
+      break;
+      default:
+        System.out.println("Well i do not have any info on that, Still Good Luck.");
+        WhatDo();
+      break;
+
+      switch (future1){
+        case 1:
+          System.out.println("Good luck on your journey, you still got lot more to do... You will be a Lifesaver one day");
+          WhatDo();
+        break;
+        case 2:
+          System.out.println("You have got a lot more to do, First step : Embrace your mindset.(Think of the Possibilities..)");
+          WhatDo();
+        break;
+        case 3:
+          System.out.println("I hope you succeed with the blessings of Einstien and Newton.");
+          WhatDo();
+        break;
+        case 4:
+          System.out.println("Sure, You have my hopes with you, surely you will entertain not only your country but also the world one day.");
+          WhatDo();
+        break;
+        case 5:
+          System.out.println("Sure, Start studying and stand with the right...");
+          WhatDo();
+        break;
+        case 6:
+          System.out.println("Go ahead and one day sing me song too.");
+          WhatDo();
+        break;
+        case 7:
+          System.out.println("Wait my developer is interested too but he is too lazy to attempt, Good Luck.");
+          WhatDo();
+        break;
+        case 8:
+          System.out.println("Please do favour me i can do a lot of things for you.");
+          WhatDo();
+        break;
+        case 9:
+          System.out.println("Please fly me with you once you become one.");
+          WhatDo();
+        break;
+        case 10:
+          System.out.println("Salute to you, My best hopes are with you.");
+          WhatDo();
+        break;
+        default:
+          System.out.println("Well i do not have any info on that, Still Good Luck.");
+          WhatDo();
+        break;
+}
+
+    }
   }
   static void Friend(){
     System.out.println("#So Friend, What do you wanna be in the future you must have some dream right ?#");
@@ -43,6 +138,7 @@ public class GPBCBPrototype {
     System.out.println("#11. Out of List#");
     Scanner scnr = new Scanner(System.in);
     int future = scnr.nextInt();
+    return(future);
   }
 
   static void Formal(){
@@ -61,5 +157,10 @@ public class GPBCBPrototype {
     System.out.println("#11. Out of List#");
     Scanner scnr = new Scanner(System.in);
     int future1 = scnr.nextInt();
+    return(future1);
+  }
+
+  static void WhatDo(){
+
   }
 }
