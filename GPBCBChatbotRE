@@ -1,1 +1,37 @@
+import java.util.*;
+public class GPBCBChatbotRE {
+  public static void main(String[]args){
+// Defining Scanner to read input.
+    Scanner scnr = new Scanner(System.in);
 
+// Welcome Program
+      System.out.println("|*************************************************|");
+      System.out.println("|***|Welcome to GPBCB, I am Still a Prototype.|***|");
+      System.out.println("|*************************************************|");
+      System.out.println("WARNING : Please provide all input in capital letters only.....");
+      System.out.println("#Please enter your name, this will make it easier for me to talk to you.#");
+    String usrname = scnr.nextLine();
+      System.out.println("Nice to meet you : "+usrname);
+      System.out.println("So, Choose how would you like me to behave.....(1/2)");
+      System.out.println("1. Formal and Well Behaving.");
+      System.out.println("2. Friend-like and Chaotic.");
+    int behave = scnr.nextInt();
+    System.out.println()
+
+    if (behave = 1){
+    System.out.println("Formal Behaviour");
+    }
+    else if behave == 2{
+    System.out.println("Friendly Behaviour");
+    }
+    else{
+    System.out.println("Sorry i don't get that");
+    }
+}
+  static void friend(){
+
+}
+  static void formal(){
+
+}
+}
