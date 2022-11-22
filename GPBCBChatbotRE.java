@@ -1,4 +1,3 @@
-
 import java.util.*;
 public class GPBCBChatbotRE {
   public static void main(String[]args){
@@ -40,12 +39,13 @@ public class GPBCBChatbotRE {
     System.out.println("6. Keep chatting...");
     System.out.println("7. Tell you a random fact...");
     System.out.println("8. Terminate...");
-    int inpt = 10;
-    System.out.println("Input Limit : " +inpt);
-    int i = 0;
-    
-    while(i <= 10){
-          int utask = scnr.nextInt();
+    int inpt1 = 10;
+    int inpt;
+    System.out.println("Total input Limit : " +inpt1);
+    int i;
+
+    for(i=0,inpt = 10;i <= 10;i++,inpt--){
+      int utask = scnr.nextInt();
       if(utask == 1){
         sumtwo();
       }
@@ -71,12 +71,22 @@ public class GPBCBChatbotRE {
         System.out.println("Please type EXIT.");
         String exit = scnr.nextLine();
       }
+      else{
+        System.out.println("Unaceptable input...");
+        break;
+      }
 
-      i++;
-      inpt--;
       System.out.println("Input Limit : " +inpt);
-      continue;
-  }
+      if(inpt == 0){
+        System.out.println("Well now i cannot not recieve any inputs, And its good bye time.");
+        System.out.println("Have a nice day (Saari Galti Developer ki hai).");
+        break;
+      }
+      else{
+        continue;
+      }
+
+    }
 
 }//main() ends here...
 
@@ -271,7 +281,6 @@ System.out.println("McDonald’s once made bubblegum-flavored broccoli");
     String quote = scnr2.nextLine();
 
 switch(quote){
-
     case "YES":
     System.out.println("I forgot the quote...I am sorry about that");
     break;
@@ -287,7 +296,6 @@ switch(quote){
     case "N":
     System.out.println("Lets move on.");
     break;
-
     }
 
     return;
