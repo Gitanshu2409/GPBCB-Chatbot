@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class GPBCBChatbotRE {
   public static void main(String[]args){
@@ -42,9 +43,9 @@ public class GPBCBChatbotRE {
     int inpt = 10;
     System.out.println("Input Limit : " +inpt);
     int i = 0;
-
-    int utask = scnr.nextInt();
-    while(i >= 10){
+    
+    while(i <= 10){
+          int utask = scnr.nextInt();
       if(utask == 1){
         sumtwo();
       }
@@ -74,6 +75,7 @@ public class GPBCBChatbotRE {
       i++;
       inpt--;
       System.out.println("Input Limit : " +inpt);
+      continue;
   }
 
 }//main() ends here...
