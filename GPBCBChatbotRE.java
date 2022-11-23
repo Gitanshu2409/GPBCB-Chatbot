@@ -44,7 +44,7 @@ public class GPBCBChatbotRE {
     System.out.println("Total input Limit : " +inpt1);
     int i;
 
-    for(i=0,inpt = 10;i <= 10;i++,inpt--){
+    for(i=0,inpt = 10;i <= 10;i++,--inpt){
       int utask = scnr.nextInt();
       if(utask == 1){
         sumtwo();
